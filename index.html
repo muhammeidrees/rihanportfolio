@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <h2 class="logo">RIHAN</h2>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <img src="photo.jpeg" class="profile">
+    <h1>RIHAN SALEEM</h1>
+    <p>Web Developer</p>
+</header>
+
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <p>I am Btech student with strong intrest in programming. web designing and database management</p>
+</section>
+
+<section id="skills" class="card">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>C</li>
+    </ul>
+</section>
+
+<section id="projects" class="card">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>E-commerce</h3>
+        <p>Online store built with MERN stack</p>
+    </div>
+
+    <div class="project">
+        <h3>POS System</h3>
+        <p>Billing software using Django</p>
+    </div>
+</section>
+
+<section id="contact" class="card">
+    <h2>Contact</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<button class="color-btn" onclick="changeColor()">🎨 Change Theme</button>
+
+<script src="script.js"></script>
+</body>
+</html>
