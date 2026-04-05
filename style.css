@@ -45,8 +45,8 @@ body {
     background: linear-gradient(to bottom, #eef2ff, #f7f9fc);
 }
 .profile {
-    width: 100px;
-    border-radius: 50%;
+    width: 200px;
+    border-radius: 5px;
     margin-bottom: 15px;
     border: 2px solid #4f46e5;
 }
@@ -136,7 +136,7 @@ button:hover {
     right: 20px;
     background: #4f46e5;
     color: white;
-    border-radius: 50%;
+    border-radius: 10px;
     padding: 10px 14px;
 }
 
