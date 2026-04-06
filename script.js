@@ -23,5 +23,5 @@ function validateForm() {
 }
 
 function changeColor() {
-    document.body.style.background = "#f5f5f5";
+    document.body.classList.toggle("light-mode");
 }
